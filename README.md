@@ -1,4 +1,5 @@
 # algorithms
 Exercises on algorithms
 
-**SSvsBS.py** - python implementation of both linear and binary search algorithms with runtime comparison
+**SSvsBS.py** - Python implementation of both linear and binary search algorithms with runtime comparison
+**Search.java** - Java implementation of both linear and binary search algorithms with runtime comparison
