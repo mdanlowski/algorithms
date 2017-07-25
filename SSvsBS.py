@@ -29,10 +29,10 @@ data = []
 for x in range(0,10000000):
 	data.append(x)
 
+randy = round(10000000*rnd.rand())
 
 start = tm.default_timer()
 ##############################
-randy = round(10000000*rnd.rand())
 print("searched number will be the same as the index it is under; the number is: " + str(randy))
 print("linear search done, index:", lsearch( data, randy ))
 ##############################
@@ -42,4 +42,4 @@ start = tm.default_timer()
 ##############################
 print("binary search done, index:", bsearch( data, randy ))
 ##############################
-print("binary search time:",tm.default_timer() - start)
+print("binary search time:", tm.default_timer() - start)
