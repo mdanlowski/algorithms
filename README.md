@@ -8,3 +8,7 @@ Exercises on algorithms
 **selectionSort.py** - Python implementation of selection sort algo
 
 **qsort.py** - Python implementation of Quicksort with pivot as the middle element in each subarray
+
+**rsum.py** - recursive function to sum up all elements of a list
+
+**rlen.py** - recursive function to return the lenght of a list
