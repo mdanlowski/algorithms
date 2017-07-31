@@ -6,13 +6,12 @@ def quicksort( arr ):
 		pvt = arr[pvti]
 		less = [x for x in (arr[:pvti]+arr[pvti+1:]) if x <= pvt]
 		greater = [x for x in (arr[:pvti]+arr[pvti+1:]) if x > pvt]
-		print(pvt)
 		return quicksort(less) + [pvt] + quicksort(greater)
-		
 
-a = [1,0,58,4,11,1,2]		
+import numpy.random as rnd		
 
-print( quicksort(a) )
-# print(a[:2])
-# print(a[:2+1])
-# print(a[:2-1])
+# a = [1,0,0,0,58,4,-15,11,1,2,152]		
+x = [int(x*rnd.rand()) for x in range(0, 100)]
+
+print( quicksort(x) )
+
