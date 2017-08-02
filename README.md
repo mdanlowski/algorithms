@@ -12,3 +12,5 @@ Exercises on algorithms
 **rsum.py** - recursive function to sum up all elements of a list
 
 **rlen.py** - recursive function to return the lenght of a list
+
+**bfs.py** - implementation of Breadth-First Search using python dictionary to model connections in a directed graph
