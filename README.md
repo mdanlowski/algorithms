@@ -14,3 +14,5 @@ Exercises on algorithms
 **rlen.py** - recursive function to return the lenght of a list
 
 **bfs.py** - implementation of Breadth-First Search using python dictionary to model connections in a directed graph
+
+**dijk.py** - Dijkstra's pathfinding, **UNFINISHED**
