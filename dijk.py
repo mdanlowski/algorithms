@@ -52,6 +52,5 @@ while elem != None:
 print("Path:  " + path)
 print("Cost: ", costs['finish'])
 
-# print(processed)
 # print(costs)
-# print(parents)
+
