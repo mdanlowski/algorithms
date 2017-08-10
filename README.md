@@ -15,4 +15,4 @@ Exercises on algorithms
 
 **bfs.py** - implementation of Breadth-First Search using python dictionary to model connections in a directed graph
 
-**dijk.py** - Dijkstra's pathfinding, **UNFINISHED**
+**dijk.py** - Dijkstra's pathfinding in Python, using dictionaries
