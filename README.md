@@ -16,3 +16,5 @@ Exercises on algorithms
 **bfs.py** - implementation of Breadth-First Search using python dictionary to model connections in a directed graph
 
 **dijk.py** - Dijkstra's pathfinding in Python, using dictionaries
+
+**UnionFind** - a set of algorithms for **Dynamic Connectivity Problem**, in Java; Quick Find, Quick Union, and QU improvements
