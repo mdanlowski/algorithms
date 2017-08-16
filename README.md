@@ -19,4 +19,4 @@ Exercises on algorithms
 
 **UnionFind** - a set of algorithms for **Dynamic Connectivity Problem**, in Java; Quick Find, Quick Union, and QU improvements
 
-**DynamicConnectivity** - added new algorithm for Dynamic Connec **Dynamic Connectivity Problem** - Quick Union; added basic inheritance for convenience; from now on _this_ folder will be updated
+**DynamicConnectivity** - added new algorithm for **Dynamic Connectivity Problem** - Quick Union; added basic inheritance for convenience; from now on _this_ folder will be updated
