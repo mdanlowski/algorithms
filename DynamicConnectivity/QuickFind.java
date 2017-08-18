@@ -1,4 +1,4 @@
-//package com.mdski.algorithms;
+package com.mdski.algorithms;
 
 public class QuickFind extends UF{
 

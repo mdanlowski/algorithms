@@ -1,4 +1,4 @@
-//package com.mdski.algorithms;
+package com.mdski.algorithms;
 
 public class QuickUnion extends UF{
 
@@ -10,7 +10,7 @@ public class QuickUnion extends UF{
         id = new int[size];
         for(int i = 0; i < id.length; i++) id[i] = i;
     }
-    private int root(int examinedObjectIndex){
+    protected int root(int examinedObjectIndex){
         while(examinedObjectIndex != id[examinedObjectIndex]) examinedObjectIndex = id[examinedObjectIndex];
         return examinedObjectIndex;
     }

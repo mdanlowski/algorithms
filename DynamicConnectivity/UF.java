@@ -1,4 +1,4 @@
-//package com.mdski.algorithms;
+package com.mdski.algorithms;
 
 public class UF {
     protected int[] id;

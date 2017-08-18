@@ -1,4 +1,4 @@
-//package com.mdski.algorithms;
+package com.mdski.algorithms;
 
 public class UFClient {
 
@@ -30,6 +30,28 @@ public class UFClient {
         System.out.println(
                 "id[0]<-->id[1]: "+uf.connected(0,1)+"\nid[6]<-->id[7]: "
                 +uf.connected(6,7)+"\nid[3]<-->id[4]: "+uf.connected(3,4)+"\nid[6]<-->id[5]: "+uf.connected(6,5)
+        );
+
+    }
+    public void QuickUnionWeightedTest(){
+        System.out.println("\nQuick Union Weighted:");
+        QuickUnionWeighted uf = new QuickUnionWeighted(10);
+        System.out.print("INDICES: ");
+        for(int elem : uf.getId()) System.out.print(elem + " ");
+        System.out.println();
+        uf.union(4,3);
+        uf.union(6,5);
+        uf.union(6,7);
+
+        System.out.print("VALUES:  ");
+        for(int elem : uf.getId()) System.out.print(elem + " ");
+        System.out.print("\nTREE SZ: ");
+        for(int elem : uf.getSize()) System.out.print(elem + " ");
+
+        System.out.println();
+        System.out.println(
+                "id[0]<-->id[1]: "+uf.connected(0,1)+"\nid[6]<-->id[7]: "
+                        +uf.connected(6,7)+"\nid[3]<-->id[4]: "+uf.connected(3,4)+"\nid[6]<-->id[5]: "+uf.connected(6,5)
         );
 
     }
