@@ -21,4 +21,4 @@ Exercises on algorithms
 
 **DynamicConnectivity** - added new algorithm for **Dynamic Connectivity Problem** - Quick Union; added basic inheritance for convenience; from now on _this_ folder will be updated
 
-**JS algorithm for string permutation** - no duplicates in the output array. E.g. perm. of "ABCD" has 24 elements (4!) and perm. of "ABCC" has only 12 (4! / 2)
+**permutate.js - JS algorithm for string permutation** - no duplicates in the output array. E.g. perm. of "ABCD" has 24 elements (4!) and perm. of "ABCC" has only 12 (4! / 2)
