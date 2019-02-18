@@ -25,3 +25,5 @@ Exercises on algorithms
 
 **matching_brackets.rb / .py**  not-so-clever algorithm to ensure matching brackets: all (, { and \[ in strings,
 made as a part of recruitment task
+
+**euclid.rb**	- Euclid's largest common divisor algorithm
