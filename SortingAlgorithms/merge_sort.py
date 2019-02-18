@@ -1,5 +1,5 @@
 def merge_sort(arr):
-    d = round(len(arr)/2)
+    d = int(round(len(arr)/2))
     if len(arr) < 2: return arr
 
     larr = arr[:d]
@@ -11,8 +11,6 @@ def merge_sort(arr):
     return merge(larr, rarr)
 
 def merge(l, r):
-    # l = ensure_array(l)
-    # r = ensure_array(r)
     ret_arr = []
 
     while len(l) > 0 and len(r) > 0:
@@ -22,14 +20,3 @@ def merge(l, r):
     if len(l) > 0: return ret_arr + l
     elif len(r) > 0: return ret_arr + r
     else: return ret_arr
-
-
-# def ensure_array(obj):
-#     if type(obj) == type(1):
-#         templ = []
-#         templ.append(obj)
-#         return templ
-#     else: return obj
-
-
-import timeit as t
